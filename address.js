@@ -177,5 +177,32 @@ tablebody.addEventListener('click',function clickCell(event) {
         });
         
 
+/**********************************
+DELETE CONTACTS
+***********************************/
+
+var deletebutton = document.getElementById("deleteLink");
+	deletebutton.addEventListener("click", function(event) {
+		event.preventDefault();
+                var userid = updateform.getAttribute('userid');
+		
+				var newContactsArray = contacts.filter(function(contact){
+                    return userid != contact.id;        
+				});
+				contacts = newContactsArray;
 
 
+ //cleanup the edit contact form and hide it.
+                updateform.elements[0].value="";
+                updateform.elements[1].value="";
+                updateform.elements[2].value="";
+                updateform.removeAttribute('userid');
+                updateform.style="display:none";
+                form.style="display:block";
+
+                //load the updated contacts
+                loadContacts(contacts)
+
+
+
+	})

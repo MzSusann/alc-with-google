@@ -176,8 +176,17 @@ button {
 button:hover {
     background-color: #7e3d97;
 }
-*/
-/*button {
-	width: 300px;
+
+.deleteButton {
+	color: white;
+	background-color: rgb(240, 37, 37); /*#4caf50;*/
 	padding: 12px 20px;
-}*/
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.deleteButton:hover {
+	background-color: rgb(77, 4, 4);
+}

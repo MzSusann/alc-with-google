@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Susann Contact Book </title>
+	<meta name= "viewport" content="width-device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+<body>
+
+<div id="bodycontainer">
+
+	<div id="purpletop">
+
+	<div id="topbar">
+
+	<span id="susann"> My Address Book</span>
+
+				<nav>
+					<ul>
+						<input type="text" name="contact_search" placeholder="Search by name" id="contactSearch" onkeyup="mySearch()">
+						<!-- <li> <img src="search.jpg" id="search"> </li> -->
+
+						
+					</ul>
+				</nav>
+
+	</div>
+
+<hr>
+
+
+		<div id="secondbar">
+			<div class="formCont">
+			<form id="form">
+
+				<label for="name"> Name: </label>
+				<input type="text" id="name" name="name" placeholder="Enter your firstname and lastname">
+
+				<label for="name"> Phone Number: </label>
+				<input type="phone" id="email" name="phonenum" placeholder="Enter your Phone Number">
+
+				<label for="name"> Email Address: </label>
+				<input type="email" id="email" name="email" placeholder="Enter your Email Address">
+
+				<button>Add Contacts</button>
+
+			</form>
+			</div>
+
+			<div class="formCont">
+			<form action="" id="updateForm" style="display:none;">
+
+				<label for="name"> Name: </label>
+				<input type="text" id="name" name="name" placeholder="Enter your firstname and lastname">
+
+				<label for="name"> Phone Number: </label>
+				<input type="phone" id="email" name="phonenum" placeholder="Enter your Phone Number">
+
+				<label for="name"> Email Address: </label>
+				<input type="email" id="email" name="email" placeholder="Enter your Email Address">
+
+				<button>Update Contact</button>
+
+			</form>
+			</div>
+
+
+			<table id="table">
+				<thead>
+					<tr>
+						<th scope="col">Id</th>
+						<th scope="col">Name</th>
+						<th scope="col">Phone Number</th>
+						<th scope="col">Email Address</th>
+					</tr>
+				</thead>
+
+				<tbody id="tbody">
+					
+
+				</tbody>
+				<!-- <tfoot colspan="3">
+					<td>Contact list is updated once a new entry is added</td>
+				</tfoot> -->
+
+				<!-- <tbody>
+					<tr>
+						<td scope="row">Susan Onukogu </td>
+						<td>08075354633</td>
+						<td>susano@gmail.com</td>
+					</tr>
+
+					<tr>
+						<td scope="row">Nancy Onukogu</td>
+						<td>08145533653</td>
+						<td>nancyo@gmail.com</td>
+					</tr>
+
+					<tr>
+						<td scope="row">Amaka Onukogu </td>
+						<td>08048736337</td>
+						<td>amakao@gmail.com</td>
+					</tr>
+
+					<tr>
+						<td scope="row">Emeka Onukogu </td>
+						<td>08035836339</td>
+						<td>emekao@gmail.com</td>
+					</tr>
+				</tbody> -->
+
+			</table>
+
+		</div>
+
+		<!-- <script type="text/javascript" src="contact.js"></script>
+ -->
+
+	</div>
+
+	
+
+</div>
+
+<script type="text/javascript" src="contact.js"></script>
+
+</body>
+
+</html>

@@ -1,34 +1,10 @@
 
-/*Mobile Styles*/
-/*@media only screen and (max-width:400px){
-	body {
-		background-color: red;
-	}
-}*/
-
-/*Tablets Styles*/
-/*@media only screen and (max-width:401px){
-	body {
-		background-color: yellow;
-	}
-}*/
-
-
-/*Tablets Styles*/
-/*@media only screen and (max-width:961px){
-	body {
-		background-color: blue;
-	}
-}*/
-
-
 
 
 body {
 	margin: 0;
 	padding:0;
 	font-family: Arial;
-	/*background-color: blue;*/
 	color: #282562;
 	display: flex;
 	
@@ -37,7 +13,7 @@ body {
 #bodycontainer{
 	width: 90%;
 	margin: 0 auto;
-	/*background-color: black;*/
+
 }
 hr {
 	    width: inherit;
@@ -47,9 +23,6 @@ hr {
 	height:70px;
 	margin: 0 auto;
 	margin-top:2px;
-	/*margin-left: 50px;
-	margin-right: 50px;*/
-	/*background-color: pink;*/
 }
 
 #susann{
@@ -142,18 +115,6 @@ table, th, td {
 
 }
 
-/*tbody, tr: nth-child(odd){
-	background-color: pink;
-
-}
-*/
-/*tbody *//*tr: nth-child(even){
-	background-color: pink;
-}*/
-
-/*tfoot{
-	font-weight: bold;
-}*/
 
 /**********************************
 FORM
@@ -167,21 +128,11 @@ form {
 	margin: 0 auto;
  
 }
-/*.formCont {
-	width: 100%;
-}*/
 
 
 
 
-/*
-	border-radius: 400px;
-	background-color: #f2f2f2;
-	width: 150px; 
-	margin-left: 500px;
-	/*padding: 100px;*/
-	/*background-color: green;*/
-	/*margin: 0 auto;*/
+
  
 
 input[name = name] {
